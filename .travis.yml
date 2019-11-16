@@ -6,3 +6,5 @@ addons:
   apt:
     packages:
       - openjdk-8-jdk
+before_install:
+  - chmod +x mvnw
